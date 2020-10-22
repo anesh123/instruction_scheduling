@@ -24,7 +24,7 @@ Format:\
 
 Output:\
   Output will be integers representing stages of pipeline execution\
-  <FE>,<DE>,<RE>,<DI>,<IS>,<WB>,<CO>\
+  FE,DE,RE,DI,IS,WB,CO\
   Fetch,Decode,Rename,Dispatch,Issue,Writeback,Commit\
   https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-823-computer-system-architecture-fall-2005/lecture-notes/l12_ooo_pipes.pdf\
   
