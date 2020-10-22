@@ -1,34 +1,34 @@
-Instruction Scheduling\
-performs dataflow scheduling of pipeline instructions
+# Instruction Scheduling
+ * performs dataflow scheduling of pipeline instructions
 
-Input file:\
-Name it test.in\
-Each input has to contains 2 comma separated parameters\
-Parameter 1: number of physical registers in the system\
-Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)\
+# Input file:\
+ * Name it test.in
+ * Each input has to contains 2 comma separated parameters
+ * Parameter 1: number of physical registers in the system
+ * Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)
 
-Following lines:\
-Instructions needed to schedule(between 1-256 lines)\
-Format:\
-  R,REG,REG,REG\
-  I,REG,REG,IMM\
-  L,REG,IMM,REG\
-  S,REG,IMM,REG
+ * Following lines:\
+ * Instructions needed to schedule(between 1-256 lines)\
+  * Format:\
+    * R,REG,REG,REG\
+    * I,REG,REG,IMM\
+    * L,REG,IMM,REG\
+    * S,REG,IMM,REG
   
-  <REG> and <IMM> - encoded as decimals\
-  REG - (+)ve integer between 0-31(inclusive) i.e [0-31]\
-  IMM - (+)ve integer value between 0 and 2^16\
-  First <REG> is destination for R,I,L\
-  Memory(not modelled)- destination for S\
-  https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7
+    * <REG> and <IMM> - encoded as decimals\
+    * REG - (+)ve integer between 0-31(inclusive) i.e [0-31]\
+    * IMM - (+)ve integer value between 0 and 2^16\
+    * First <REG> is destination for R,I,L\
+    * Memory(not modelled)- destination for S\
+    * https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7
 
-Output:
-  Output will be integers representing stages of pipeline execution\
-  FE,DE,RE,DI,IS,WB,CO\
-  Fetch,Decode,Rename,Dispatch,Issue,Writeback,Commit\
-  https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-823-computer-system-architecture-fall-2005/lecture-notes/l12_ooo_pipes.pdf\
+# Output:
+   * Output will be integers representing stages of pipeline execution\
+   * FE,DE,RE,DI,IS,WB,CO\
+   * Fetch,Decode,Rename,Dispatch,Issue,Writeback,Commit\
+   * https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-823-computer-system-architecture-fall-2005/lecture-notes/l12_ooo_pipes.pdf\
   
-Sample:\
+# Sample:
 Input:
 
 64,2\
@@ -62,7 +62,7 @@ Output:
 5,6,7,8,10,11,12\
 6,7,8,9,11,12,13
 
-Instructions:
+# Instructions:
 
 1)Download onto local machine\
 2)Copy test.in file to directory\
