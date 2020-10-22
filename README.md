@@ -10,9 +10,9 @@ Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)
 Following lines:
 Instructions needed to schedule(between 1-256 lines)
 Format:
-  R,REG,REG,REG
-  I,REG,REG,IMM
-  L,REG,IMM,REG
+  R,REG,REG,REG\
+  I,REG,REG,IMM\
+  L,REG,IMM,REG\
   S,REG,IMM,REG
   
   <REG> and <IMM> - encoded as decimals\
