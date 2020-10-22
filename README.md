@@ -9,11 +9,11 @@
 
  * Following lines:
  * Instructions needed to schedule(between 1-256 lines)\
-  * Format:
+  * Format:\
     R,REG,REG,REG\
     I,REG,REG,IMM\
     L,REG,IMM,REG\
-    S,REG,IMM,REG\
+    S,REG,IMM,REG
   
     * <REG> and <IMM> - encoded as decimals\
     * REG - (+)ve integer between 0-31(inclusive) i.e [0-31]\
