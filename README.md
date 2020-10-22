@@ -5,11 +5,11 @@ Input file:\
 Name it test.in\
 Each input has to contains 2 comma separated parameters\
 Parameter 1: number of physical registers in the system\
-Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)
+Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)\
 
-Following lines:
-Instructions needed to schedule(between 1-256 lines)
-Format:
+Following lines:\
+Instructions needed to schedule(between 1-256 lines)\
+Format:\
   R,REG,REG,REG\
   I,REG,REG,IMM\
   L,REG,IMM,REG\
@@ -69,7 +69,7 @@ Instructions:\
 3)Convert to tar.gz file\
 4)Copy to virtual machine\
 5)Untar file in new directory\
-6)Run make test\
+6)Run make test
 
 References:\
 Complex Pipelining- Out of Order Execution & Register Renaming, Arvind - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-823-computer-system-architecture-fall-2005/lecture-notes/l12_ooo_pipes.pdf
