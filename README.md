@@ -1,5 +1,5 @@
 Instruction Scheduling\
-performs dataflow scheduling of pipeline instructions\
+performs dataflow scheduling of pipeline instructions
 
 Input file:\
 Name it test.in\
@@ -20,7 +20,7 @@ Format:\
   IMM - (+)ve integer value between 0 and 2^16\
   First <REG> is destination for R,I,L\
   Memory(not modelled)- destination for S\
-  https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7\
+  https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7
 
 Output:
   Output will be integers representing stages of pipeline execution\
