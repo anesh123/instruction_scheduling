@@ -10,14 +10,14 @@
  * Following lines:
  * Instructions needed to schedule(between 1-256 lines)\
   * Format:
-    * R,REG,REG,REG
-    * I,REG,REG,IMM
-    * L,REG,IMM,REG
-    * S,REG,IMM,REG
+    R,REG,REG,REG\
+    I,REG,REG,IMM\
+    L,REG,IMM,REG\
+    S,REG,IMM,REG\
   
-    * <REG> and <IMM> - encoded as decimals
-    * REG - (+)ve integer between 0-31(inclusive) i.e [0-31]
-    * IMM - (+)ve integer value between 0 and 2^16
+    * <REG> and <IMM> - encoded as decimals\
+    * REG - (+)ve integer between 0-31(inclusive) i.e [0-31]\
+    * IMM - (+)ve integer value between 0 and 2^16\
     * First <REG> is destination for R,I,L
     * Memory(not modelled)- destination for S
     * https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7
@@ -44,7 +44,7 @@ L,5,0,7\
 L,2,80,4\
 L,3,64,5\
 R,2,2,3\
-S,2,24,29\
+S,2,24,29
 
 Output:
 
@@ -60,7 +60,7 @@ Output:
 4,5,6,7,9,10,11\
 5,6,7,8,9,10,11\
 5,6,7,8,10,11,12\
-6,7,8,9,11,12,13\
+6,7,8,9,11,12,13
 
 # Instructions:
 
