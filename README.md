@@ -15,9 +15,9 @@
     L,REG,IMM,REG\
     S,REG,IMM,REG
   
-    * <REG> and <IMM> - encoded as decimals\
-    * REG - (+)ve integer between 0-31(inclusive) i.e [0-31]\
-    * IMM - (+)ve integer value between 0 and 2^16\
+    * REG and IMM - encoded as decimals
+    * REG - (+)ve integer between 0-31(inclusive) i.e [0-31]
+    * IMM - (+)ve integer value between 0 and 2^16
     * First <REG> is destination for R,I,L
     * Memory(not modelled)- destination for S
     * https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7
