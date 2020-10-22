@@ -5,10 +5,10 @@ Input file:\
 Name it test.in\
 Each input has to contains 2 comma separated parameters\
 Parameter 1: number of physical registers in the system\
-Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)\
+Parameter 2: issue width of machine (https://en.wikipedia.org/wiki/Wide-issue)
 
-Following lines:\
-Instructions needed to schedule(between 1-256 lines)\
+Following lines:
+Instructions needed to schedule(between 1-256 lines)
 Format:
   R,<REG>,<REG>,<REG>
   I,<REG>,<REG>,<IMM>
