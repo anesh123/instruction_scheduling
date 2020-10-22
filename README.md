@@ -22,14 +22,14 @@ Format:\
   Memory(not modelled)- destination for S\
   https://inst.eecs.berkeley.edu/~cs61c/resources/su18_lec/Lecture7.pdf - page 7\
 
-Output:\
+Output:
   Output will be integers representing stages of pipeline execution\
   FE,DE,RE,DI,IS,WB,CO\
   Fetch,Decode,Rename,Dispatch,Issue,Writeback,Commit\
   https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-823-computer-system-architecture-fall-2005/lecture-notes/l12_ooo_pipes.pdf\
   
 Sample:\
-Input:\
+Input:
 
 64,2\
 L,2,80,4\
@@ -46,7 +46,7 @@ L,3,64,5\
 R,2,2,3\
 S,2,24,29
 
-Output:\
+Output:
 
 0,1,2,3,4,5,6\
 0,1,2,3,4,5,6\
