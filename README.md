@@ -62,7 +62,7 @@ Output:
 5,6,7,8,10,11,12\
 6,7,8,9,11,12,13
 
-Instructions:\
+Instructions:
 
 1)Download onto local machine\
 2)Copy test.in file to directory\
